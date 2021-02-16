@@ -32,5 +32,16 @@ sudo mv -v jmeter/* /usr/local/lib/jmeter/
 cd /usr/local/bin
 sudo ln -s /usr/local/lib/jmeter/apache-jmeter-5.4.1/bin/jmeter jmeter
 
+# tweak-tool
+sudo apt install gnome-tweak-tool
+
+# numix icons
+sudo add-apt-repository ppa:numix/ppa
+sudo apt update
+sudo apt-get install numix-gtk-theme numix-icon-theme-circle
+
+#gsettings set org.gnome.desktop.interface gtk-theme "Numix"
+gsettings set org.gnome.desktop.wm.preferences theme "Numix"
+
 # docker
 source ./install-docker.sh
