@@ -1,3 +1,4 @@
+
 sudo apt update
 
 sudo apt install vim
@@ -7,6 +8,8 @@ sudo apt install htop
 # oh my zsh
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 sh install.sh
+# On linux: cp $HOME/code/dotfiles/.zsh_aliases $HOME/.oh-my-zsh/custom/aliases.zsh
+# source $HOME/.zshrc
 
 # java jre 8u281
 wget -O jre.tar.gz  https://javadl.oracle.com/webapps/download/AutoDL?BundleId=244058_89d678f2be164786b292527658ca1605
