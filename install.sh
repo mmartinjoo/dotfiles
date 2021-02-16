@@ -4,6 +4,7 @@ sudo apt update
 sudo apt install vim
 sudo apt install git
 sudo apt install htop
+sudo apt install preload
 
 # oh my zsh
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
