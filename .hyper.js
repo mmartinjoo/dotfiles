@@ -4,6 +4,13 @@
 
 module.exports = {
   config: {
+    init: [
+  	{
+    		rule: 'once',
+    		commands: ['source ~/.zshrc'],
+    		allowedShells: ['zsh', 'bash']
+  	}
+    ],
     //opacity: 0.7,
 	  
     // choose either `'stable'` for receiving highly polished,
@@ -149,7 +156,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyper-material-theme", "hyper-search", "hyper-opacity"],
+  plugins: ["hyper-material-theme", "hyper-search", "hyper-opacity", "hyper-init"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
