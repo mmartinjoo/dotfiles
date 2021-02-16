@@ -1,0 +1,33 @@
+# Terminal
+alias findfile="sudo find / -name "
+alias ff="findfile"
+
+# Artisan and Composer
+alias a="php artisan "
+alias c="composer"
+alias test="php artisan test"
+alias testf="php artisan test --filter "
+alias mfs="php artisan migrate:fresh && php artisan db:seed"
+
+# npm
+alias n="npm "
+alias watch="npm run watch"
+
+# yarn
+alias y="yarn "
+
+# git
+alias status="git status"
+alias commit="git commit -am "
+alias push="git push origin HEAD"
+alias checkout="git checkout "
+alias branch="git checkout -b "
+alias diff="git diff"
+alias unpushed="git log origin/master..HEAD"
+alias pull="git pull"
+alias fetch="git fetch"
+alias revert="git checkout ."
+
+# docker
+alias d="docker"
+alias dc="docker-compose"
