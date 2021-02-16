@@ -4,7 +4,7 @@
 
 module.exports = {
   config: {
-    opacity: 0.93,
+    //opacity: 0.7,
 	  
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
@@ -45,7 +45,8 @@ module.exports = {
 
     // terminal background color
     // opacity is only supported on macOS
-    backgroundColor: '#000',
+    //backgroundColor: '#000',
+    backgroundColor: 'rgba(0, 0, 0, 0.8)',
 
     // terminal selection color
     selectionColor: 'rgba(248,28,229,0.3)',
