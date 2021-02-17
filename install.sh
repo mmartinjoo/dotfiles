@@ -48,6 +48,11 @@ source ./install-docker.sh
 
 sudo apt install nodejs npm
 
+# yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update && sudo apt install yarn
+
 # Only use swap if memory usage if 90% or more
 # gedit admin:///etc/sysctl.conf
 # vm.swappiness=10
