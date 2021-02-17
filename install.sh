@@ -46,6 +46,8 @@ gsettings set org.gnome.desktop.wm.preferences theme "Numix"
 # docker
 source ./install-docker.sh
 
+sudo apt install nodejs npm
+
 # Only use swap if memory usage if 90% or more
 # gedit admin:///etc/sysctl.conf
 # vm.swappiness=10
