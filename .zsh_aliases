@@ -2,6 +2,7 @@
 alias findfile="sudo find / -name "
 alias ff="findfile"
 alias l="ls -lha"
+alias cl="clear"
 
 # Artisan and Composer
 alias a="php artisan "
