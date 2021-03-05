@@ -33,3 +33,4 @@ alias revert="git checkout ."
 # docker
 alias d="docker"
 alias dc="docker-compose"
+alias dsp="docker system prune"
